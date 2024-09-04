@@ -104,7 +104,6 @@ section.curved-xs {
     padding: 0 2%;
 }
 
-
 /* Headings Styles */
 h1 {
     font-size: 6em;
@@ -132,7 +131,7 @@ h1, h2, h3, h4 {
 .hover-1 {
     --h: 1.2em;   
     line-height: var(--h);
-    color: #0000;
+    /* color: #0000; */
     text-shadow: 
       0 calc(-1*var(--_t, 0em)) var(--light-pink), 
       0 calc(var(--h) - var(--_t, 0em)) var(--champagne);
@@ -141,7 +140,7 @@ h1, h2, h3, h4 {
   }
   .hover-1:hover {
     --_t: var(--h);
-    font-family: 'Leopardo';
+    /* font-family: 'Leopardo'; */
   }
 
 /* Showing state: fully visible */
@@ -395,6 +394,7 @@ section#bio-me {
 #vision h1 {
     font-family: 'Monter';
     font-size: 3rem;
+    margin-bottom: 3%;
 }
 
 .thoughts {
